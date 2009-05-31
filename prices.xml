@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE import SYSTEM "DTD/import.dtd">
+<data>
+	<import>
+	
+		<guthabenprices name="wbb.guthaben.prices.earnpost">
+			<description>wbb.guthaben.prices.earnpost.desc</description>
+			<price>GUTHABEN_EARN_PER_POST</price>
+		</guthabenprices>
+		
+		<guthabenprices name="wbb.guthaben.prices.earnthread">
+			<description>wbb.guthaben.prices.earnthread.desc</description>
+			<price>GUTHABEN_EARN_PER_THREAD</price>
+		</guthabenprices>
+
+	</import>
+</data>
