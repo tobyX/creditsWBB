@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="de">
+
+	<category name="wbb.guthaben.log">
+		<item name="wbb.guthaben.log.newpost"><![CDATA[Neuer Beitrag im Thema ]]></item>
+		<item name="wbb.guthaben.log.newthread"><![CDATA[Neues Thema:]]></item>
+		<item name="wbb.guthaben.log.deletepost"><![CDATA[Abzug für gelöschten Beitrag:]]></item>
+		<item name="wbb.guthaben.log.deletethread"><![CDATA[Abzug für gelöschtes Thema:]]></item>
+		<item name="wbb.guthaben.log.newcalc"><![CDATA[Neuberechnetes Guthaben]]></item>
+		<item name="wbb.guthaben.log.recoverpost"><![CDATA[Wiederherstellung Beitrag: ]]></item>
+		<item name="wbb.guthaben.log.recoverthread"><![CDATA[Wiederherstellung Thema: ]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.guthaben.earn"><![CDATA[Verdienstmöglichkeiten]]></item>
+		<item name="wcf.acp.option.category.guthaben.earn.description"><![CDATA[Hier werden die Summen die ein User pro Aktion verdienen kann gesetzt. Um eine Aktion zu deaktivieren einfach den Wert auf 0 setzen.]]></item>
+		<item name="wcf.acp.option.guthaben_earn_per_post"><![CDATA[Guthaben per Post]]></item>
+		<item name="wcf.acp.option.guthaben_earn_per_post.description"><![CDATA[Jedem User wird diese Summe pro Post gutgeschrieben.]]></item>
+		<item name="wcf.acp.option.guthaben_earn_per_thread"><![CDATA[Guthaben per Thread]]></item>
+		<item name="wcf.acp.option.guthaben_earn_per_thread.description"><![CDATA[Jedem User wird diese Summe pro Thread gutgeschrieben.]]></item>
+		<item name="wcf.acp.option.guthaben_earn_per_pn"><![CDATA[Guthaben per PN]]></item>
+		<item name="wcf.acp.option.guthaben_earn_per_pn.description"><![CDATA[Jedem User wird diese Summe pro PN gutgeschrieben.]]></item>
+	</category>
+
+	<category name="wbb.acp.board">
+		<item name="wbb.acp.board.guthaben"><![CDATA[Guthabensystem]]></item>
+		<item name="wbb.acp.board.countGuthaben"><![CDATA[Guthabensystem für dieses Forum aktivieren]]></item>
+		<item name="wbb.acp.board.countGuthaben.description"><![CDATA[]]></item>
+		<item name="wbb.acp.board.threadAddGuthaben"><![CDATA[Guthaben für neue Themen]]></item>
+		<item name="wbb.acp.board.threadAddGuthaben.description"><![CDATA[Hiermit kannst du den globalen Wert für dieses Forum überschreiben. 0 übernimmt den globalen Wert.]]></item>
+		<item name="wbb.acp.board.postAddGuthaben"><![CDATA[Guthaben für neue Beiträge]]></item>
+		<item name="wbb.acp.board.postAddGuthaben.description"><![CDATA[Hiermit kannst du den globalen Wert für dieses Forum überschreiben. 0 übernimmt den globalen Wert.]]></item>
+	</category>
+
+	<category name="wbb.acp.updateCounters">
+		<item name="wbb.acp.updateCounters.counter.guthaben"><![CDATA[Guthaben aller Benutzer aktualisieren]]></item>
+	</category>
+
+	<category name="wbb.guthaben.prices">
+		<item name="wbb.guthaben.prices.earnpost"><![CDATA[Einkommen pro Beitrag]]></item>
+		<item name="wbb.guthaben.prices.earnpost.desc"><![CDATA[Dieser Betrag wird dir pro verfasstem Beitrag gutgeschrieben.]]></item>
+		<item name="wbb.guthaben.prices.earnthread"><![CDATA[Einkommen pro Thema]]></item>
+		<item name="wbb.guthaben.prices.earnthread.desc"><![CDATA[Dieser Betrag wird dir pro verfasstem Thema gutgeschrieben.]]></item>
+	</category>
+
+</language>
