@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<options>
+
+			<!-- earn -->
+			<option name="guthaben_earn_per_post">
+				<categoryname>guthaben.earn</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>10</defaultvalue>
+			</option>
+			<option name="guthaben_earn_per_thread">
+				<categoryname>guthaben.earn</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>50</defaultvalue>
+			</option>
+			<!-- earn -->
+
+		</options>
+	</import>
+</data>
