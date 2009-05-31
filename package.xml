@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "DTD/package.dtd">
+<package name="com.toby.wbb.guthaben">
+
+	<packageInformation>
+		<packageName>Guthaben</packageName>
+		<isUnique>1</isUnique>
+		<packageDescription>Guthaben fürs WBB</packageDescription>
+		<standalone>0</standalone>
+		<version>0.8.8</version>
+		<date>2008-09-28</date>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageInformation>
+
+	<authorInformation>
+		<author>Tobias Friebel</author>
+		<authorURL>http://www.enigma-forum.de</authorURL>
+	</authorInformation>
+
+	<requiredpackages>
+		<requiredpackage>com.woltlab.wbb</requiredpackage>
+		<requiredpackage minversion="0.9.0">com.toby.wcf.guthaben</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<languages languagecode="de">de.utf-8.xml</languages>
+		<languages languagecode="de-informal">de-informal.utf-8.xml</languages>
+		<files>files.tar</files>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<options>options.xml</options>
+		<sql>install.sql</sql>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<guthabenprices>prices.xml</guthabenprices>
+	</instructions>
+
+	<instructions type="update" fromversion="0.8.7">
+		<files>files.tar</files>
+		<languages languagecode="de">de.utf-8.xml</languages>
+		<languages languagecode="de-informal">de-informal.utf-8.xml</languages>
+	</instructions>
+
+	<instructions type="update" fromversion="0.8.8">
+		<files>files.tar</files>
+	</instructions>
+
+</package>
