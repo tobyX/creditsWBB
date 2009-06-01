@@ -19,8 +19,6 @@
 		<item name="wcf.acp.option.guthaben_earn_per_post.description"><![CDATA[Jedem User wird diese Summe pro Post gutgeschrieben.]]></item>
 		<item name="wcf.acp.option.guthaben_earn_per_thread"><![CDATA[Guthaben per Thread]]></item>
 		<item name="wcf.acp.option.guthaben_earn_per_thread.description"><![CDATA[Jedem User wird diese Summe pro Thread gutgeschrieben.]]></item>
-		<item name="wcf.acp.option.guthaben_earn_per_pn"><![CDATA[Guthaben per PN]]></item>
-		<item name="wcf.acp.option.guthaben_earn_per_pn.description"><![CDATA[Jedem User wird diese Summe pro PN gutgeschrieben.]]></item>
 	</category>
 
 	<category name="wbb.acp.board">
