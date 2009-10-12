@@ -43,7 +43,7 @@ class GuthabenPostListener implements EventListener
 				else
 					$add = GUTHABEN_EARN_PER_POST;
 
-				if ($eventObj->board->countGuthaben == 1 && $add != 0 && $eventObj->newPost->isDisabled == false)
+				if ($eventObj->board->countGuthaben == 1 && $add != 0 && $eventObj->post->isDisabled == false)
 				{
 					if (isset ($_POST['deletePost']))
 					{
