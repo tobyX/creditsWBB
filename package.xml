@@ -7,8 +7,8 @@
 		<isUnique>1</isUnique>
 		<packageDescription>Guthaben fürs WBB</packageDescription>
 		<standalone>0</standalone>
-		<version>0.8.8</version>
-		<date>2008-09-28</date>
+		<version>0.9.0 BETA 1</version>
+		<date>2009-10-13</date>
 		<plugin>com.woltlab.wbb</plugin>
 	</packageInformation>
 
@@ -19,7 +19,7 @@
 
 	<requiredpackages>
 		<requiredpackage>com.woltlab.wbb</requiredpackage>
-		<requiredpackage minversion="0.9.0">com.toby.wcf.guthaben</requiredpackage>
+		<requiredpackage minversion="1.0">com.toby.wcf.guthaben</requiredpackage>
 	</requiredpackages>
 
 	<instructions type="install">
@@ -41,6 +41,7 @@
 
 	<instructions type="update" fromversion="0.8.8">
 		<files>files.tar</files>
+		<eventlistener>eventlistener.xml</eventlistener>
 	</instructions>
-
+	
 </package>

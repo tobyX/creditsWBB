@@ -2,6 +2,7 @@
 <!DOCTYPE import SYSTEM "DTD/import.dtd">
 <data>	
 	<import>
+		<!-- Guthaben verändern durch Aktion im Forum -->
 		<eventlistener>
 			<eventClassName>ThreadAddForm</eventClassName>
 			<eventName>saved</eventName>
@@ -16,6 +17,7 @@
 			<eventClassName>PostAddForm</eventClassName>
 			<eventName>saved</eventName>
 			<listenerClassFile>lib/system/event/listener/GuthabenPostListener.class.php</listenerClassFile>
+			<inherit>1</inherit>
 		</eventlistener>
 		<eventlistener>
 			<eventClassName>PostEditForm</eventClassName>
@@ -27,6 +29,8 @@
 			<eventName>show</eventName>
 			<listenerClassFile>lib/system/event/listener/GuthabenPostListener.class.php</listenerClassFile>
 		</eventlistener>
+		
+		<!-- ACP BoardAdd/Edit -->
 		<eventlistener>
 			<eventClassName>BoardAddForm</eventClassName>
 			<eventName>assignVariables</eventName>
@@ -48,6 +52,8 @@
 			<environment>admin</environment>
 			<inherit>1</inherit>
 		</eventlistener>
+		
+		<!-- ACP Guthabenupdaten -->
 		<eventlistener>
 			<eventClassName>UpdateCountersForm</eventClassName>
 			<eventName>assignVariables</eventName>
