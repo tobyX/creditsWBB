@@ -28,6 +28,7 @@ class GuthabenPostListener implements EventListener
 		switch ($className)
 		{
 			case 'PostAddForm':
+			case 'PostQuickAddForm':
 				if ($eventObj->board->postAddGuthaben != 0)
 					$add = $eventObj->board->postAddGuthaben;
 				else
